@@ -1,0 +1,15 @@
+{
+  "model_path": "/home/yy/model/Qwen2.5-Coder-7B-Instruct",
+  "train_file": "/home/yy/TrustCoder/CWEval-main/data/cse_sft_train_v2.jsonl",
+  "output_dir": "/home/yy/TrustCoder/CWEval-main/model/Qwen2.5-Coder-7B-CSE-SFT-v2",
+  "max_length": 4096,
+  "epochs": 1.0,
+  "learning_rate": 2e-05,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 16,
+  "lora_r": 8,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "val_ratio": 0.05,
+  "seed": 42
+}
