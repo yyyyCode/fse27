@@ -44,7 +44,6 @@ We additionally report their intersections and conditional efficiency metrics, i
 │   ├── evaluatewitheffi.py      # Efficiency-aware greedy evaluation
 │   ├── evaluatewitheffi_sampling.py
 │   ├── generate.py              # Base code generation
-│   ├── generate_local.py
 │   ├── generatewithprompt.py    # Quality-oriented prompting
 │   ├── generatewithprompt_sampling.py
 │   ├── repair.py                # Feedback-guided repair
